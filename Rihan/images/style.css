@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 80px;
+    color: darkgreen;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+.nav{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://3.bp.blogspot.com/-9rRMM0cCfuE/VjMGqBo_ocI/AAAAAAAAFFE/udP8G2FTX-w/s1600/16ZX1000P_Styling01.jpg");
+    background-size: cover;
+    margin-top: 60px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(https://imgd.aeplcdn.com/664x374/n/bw/models/colors/kawasaki-select-model-metallic-diablo-black-1692016925517.png?q=80);
+}
+.image-container{
+    width: 100%;
+    height: 220px;
+    margin-top: 50px  ;
+}
+
